@@ -30,15 +30,19 @@ public class MainActivity extends AppCompatActivity {
         // Set the content of the activity to use the activity_main.xml layout file
         setContentView(R.layout.activity_main);
 
+        // Find the View that shows categories
         TextView numbers = (TextView) findViewById(R.id.numbers);
         TextView family = (TextView) findViewById(R.id.family);
         TextView colors = (TextView) findViewById(R.id.colors);
         TextView phrases = (TextView) findViewById(R.id.phrases);
 
+        // Set four a clickListeners on that Views
         numbers.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                // Create a new intent to open the {@link NumbersActivity}
                 Intent i = new Intent(MainActivity.this, NumbersActivity.class);
+                // Start the new activity
                 startActivity(i);
             }
         });
