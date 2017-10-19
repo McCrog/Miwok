@@ -16,15 +16,14 @@
         android:id="@+id/text_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/category_numbers"
         android:orientation="vertical"
         android:paddingLeft="16dp">
 
         <TextView
             android:id="@+id/miwok_text_view"
             style="@style/WordStyle"
-            android:textStyle="bold"
             android:gravity="bottom"
+            android:textStyle="bold"
             tools:text="lutti" />
 
         <TextView
