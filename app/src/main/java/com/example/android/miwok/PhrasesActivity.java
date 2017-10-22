@@ -13,7 +13,7 @@ public class PhrasesActivity extends AppCompatActivity {
 
     /** Handles playback of all the sound files */
     private MediaPlayer mMediaPlayer;
-    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,7 +54,7 @@ public class PhrasesActivity extends AppCompatActivity {
 
                 // Create and setup the {@link MediaPlayer} for the audio resource associated
                 // with the current word
-                mMediaPlayer = MediaPlayer.create(PhrasesActivity.this, word.getMusicResourseId());
+                mMediaPlayer = MediaPlayer.create(PhrasesActivity.this, word.getAudioResourceId());
 
                 // Start the audio file
                 mMediaPlayer.start();
