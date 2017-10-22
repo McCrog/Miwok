@@ -34,7 +34,7 @@
     <!-- Style for a category of vocabulary words -->
     <style name="WordStyle">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_height">44dp</item>
         <item name="android:layout_weight">1</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
