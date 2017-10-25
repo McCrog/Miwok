@@ -1,6 +1,5 @@
 package com.example.android.miwok;
 
-
 import android.content.Context;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
@@ -71,7 +70,6 @@ public class ColorsFragment extends Fragment {
         // Required empty public constructor
     }
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -139,7 +137,6 @@ public class ColorsFragment extends Fragment {
         });
         return rootView;
     }
-
 
     @Override
     public void onStop() {

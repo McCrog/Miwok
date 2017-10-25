@@ -1,6 +1,5 @@
 package com.example.android.miwok;
 
-
 import android.content.Context;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
@@ -70,7 +69,6 @@ public class FamilyFragment extends Fragment {
     public FamilyFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
